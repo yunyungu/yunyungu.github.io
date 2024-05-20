@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./css/fullpage.min.css">
+    <script src="./js/jquery.js"></script>
+    <script src="./js/swiper-bundle.min.js"></script>
+    <script src="./js/fullpage.min.js"></script>
+    <title>CHAEYUN Portfolio</title>
+    <style>
+        @font-face {
+            font-family:'Cormorant';
+            src: url(./fonts/CormorantGaramond-Bold.ttf);
+        }
+        @font-face {
+            font-family:'EB';
+            src: url(./fonts/EBGaramond-ExtraBold.ttf);
+        }
+        @font-face {
+            font-family:'NanumSquareNeo';
+            src: url(./fonts/NanumSquareNeo-Variable.ttf);
+        }
+        @font-face {
+            font-family:'Satisfy';
+            src: url(./fonts/Satisfy-Regular.ttf);
+        }
+        @font-face {
+            font-family:'UbuntuSans';
+            src: url(./fonts/UbuntuSans-Medium.ttf);
+        }
+        :root{
+            --main-color:#145e50;
+            --main-color-40:rgba(20, 94, 80, 0.4);
+            --line-color:#808080;
+            --back-color:#efefef;
+            --tit-color:#145e50;
+            --xl-txt-color:rgba(128, 128, 128, 0.2);
+            --text-color-bk:#000;
+            --text-color-wh:#fff;
+
+            font-family:'UbuntuSans';
+            font-size:32px;
+            line-height:1.5;
+            color:var(--text-color);
+        }
+
+        body{
+            background:var(--back-color);
+        }
+        #wrap{
+            overflow:hidden;
+        }
+        .container{
+            max-width:1920px;
+            margin:0 auto;
+            padding:0 30px;
+        }
+        section{
+            height:99vh;
+            overflow: hidden;
+        }
+
+        
+        /* header style */
+        #header{
+            position:fixed;
+            z-index:100;
+            width:100%;
+            background:var(--main-color-40);
+            color:var(--text-color-wh);
+            font-family:'Cormorant';
+            font-size:26px;
+        }
+        #header .container{
+            display:flex;
+            flex-flow:row nowrap;
+            justify-content:space-between;
+            align-items: center;
+            padding:10px 30px;
+        }
+        #header nav ul{
+            display:flex;
+            flex-flow:row nowrap;
+            justify-content:flex-end;
+            align-items: center;
+        }
+        #header nav ul li{
+            margin-left:20px;
+        }
+        #header nav .btn-theme{
+            position:relative;
+            cursor: pointer;
+            width:26px;
+            background:url(./images/ico-set.svg) no-repeat center;
+            background-size:contain;
+            text-indent:-999999px;
+        }
+        #header .theme-op{
+            display:none;
+            position:absolute;
+            top: 120%;
+            right: 0;
+            width:240px;
+            color:var(--text-color-bk);
+            text-indent:0;
+            text-align: right;
+        }
+
+
+        /* main style */
+
+
+        /* home style */
+        #home{
+            background:url(./images/background-gr.jpg) no-repeat center;
+            background-size:cover;
+        }
+        #home .container{
+            display:flex;
+            flex-flow:column nowrap;
+            justify-content: center;
+        }
+        #home h2{
+            font-family:'Cormorant';
+            font-size:80px;
+            color:var(--main-color);
+            text-align: center;
+            order:2;
+            letter-spacing:40px;
+        }
+        #home h3{
+            font-family:'Cormorant';
+            font-size:40px;
+            color:var(--line-color);
+            text-align: center;
+            order:1;
+
+        }
+
+
+        /* about style */
+        #about img{width:100px;}
+        
+
+        /* project-des style */
+        .desSwiper .swiper-slide{width:20%;margin-right:10px;border-radius:15px;overflow:hidden;}
+        .desSwiper .img-box{
+            position:relative;
+        }
+        .desSwiper .contents{
+            /* display:none; */
+            position:absolute;
+            top:0;
+            bottom:0;
+            left:0;
+            right:0;
+            background:rgba(0, 0, 0, 0.3);
+        }
+
+        /* project-pub style */
+        .pubSwiper .swiper-slide{
+            display:flex;
+            flex-flow:row nowrap;
+            justify-content:space-around;
+            align-items:center;
+        }
+        .pubSwiper .img-box{
+            display:inline-block;
+            width:400px;
+            height:600px;
+            overflow:scroll;
+            border-radius:15px;
+        }
+        .pubSwiper .desk-box{
+            width:600px;
+            height:400px;
+        }
+
+
+
+        /* contact style */
+
+
+        /* footer style */
+    </style>
+</head>
+<body>
+    <section id="wrap">
+        <header id="header">
+            <div class="container">
+                <h1><a href="./index.html">PARK CHAEYUN's PORTFOLIO</a></h1>
+                <nav>
+                    <ul>
+                        <li><a href="#home">HOME</a></li>
+                        <li><a href="#about">ABOUT</a></li>
+                        <li><a href="#project-des">DESIGN</a></li>
+                        <li><a href="#project-pub">PUBLISHING</a></li>
+                        <li><a href="#contact">CONTACT</a></li>
+                        <li class="btn-theme">
+                            <a href="#" class="btn-theme">set</a>
+                            <ul class="theme-op">
+                                <li><a href="#">green theme</a></li>
+                                <li><a href="#">brown theme</a></li>
+                            </ul>
+                        </li>
+                        
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main id="fullpage">
+            <section id="home" class="section">
+                <div class="container">
+                    <h2>parkchaeyun's<br>portfolio.</h2>
+                    <h3>web designer & publisher</h3>
+                </div>
+            </section>
+            <section id="about" class="section">
+                <div class="container">
+                    <h2>ABOUT ,</h2>
+                    <article class="swiper aboutSwiper">
+                        <ul class="swiper-wrapper">
+                            <li class="swiper-slide profile">
+                                <article>
+                                    <div class="img-box"><img src="./images/profile.jpg" alt="프로필이미지"></div>
+                                </article>
+                                <article>
+                                    <P>언제나 새로운 경험을 향해 끊임없이 노력하고 도전하는<br>신입 웹디자인&퍼블리셔 박채윤입니다.</P>
+                                </article>
+                                <article>
+                                    <ul>
+                                        <li>
+                                            <h3>NAME</h3>
+                                            <p>박채윤</p>
+                                        </li>
+                                        <li>
+                                            <h3>BIRTH</h3>
+                                            <p>1999.06.30</p>
+                                        </li>
+                                        <li>
+                                            <h3>EMAIL</h3>
+                                            <p>cheyoon99@gmail.com</p>
+                                        </li>
+                                        <li>
+                                            <h3>SITE</h3>
+                                            <p>https://yunyungu.github.io</p>
+                                        </li>
+                                    </ul>
+                                </article>
+                            </li>
+                            <li class="swiper-slide inform">
+                                <article class="education">
+                                    <h3>EDUCATION</h3>
+                                    <ul>
+                                        <li>
+                                            <span>2018.02</span>서인천고등학교 졸업
+                                        </li>
+                                        <li>
+                                            <span>2021.02</span>인하공업전문대학 패션디자인학과 졸업
+                                        </li>
+                                        <li>
+                                            <span>2024.05</span>인천IT직업능력개발학원<br>UX/UI 프론트엔드<br>반응형 웹디자인&웹퍼블리셔 개발자 과정<br>760시간 수료
+                                        </li>
+                                    </ul>
+                                </article>
+                                <article class="license">
+                                    <h3>LICENSE</h3>
+                                    <ul>
+                                        <li><span>2023.04</span>운전면허 2종보통</li>
+                                        <li><span>20224.04</span>GTQ 1급</li>
+                                        <li>GTQi 1급</li>
+                                    </ul>
+                                </article>
+                                <article class="experience">
+                                    <h3>EXPERIENCE</h3>
+                                    <ul>
+                                        <li><span>2020.08 ~ 2023.11</span>JSA어패럴 영업부 근무<br>(스포츠웨어 프로모션)</li>
+                                    </ul>
+                                </article>
+                            </li>
+                            <li class="swiper-slide">
+                                <ul>
+                                    <li><span>Photoshop</span><span>90%</span></li>
+                                    <li><span>Illustrator</span><span>90%</span></li>
+                                    <li><span>HTML5</span><span>80%</span></li>
+                                    <li><span>CSS3</span><span>80%</span></li>
+                                    <li><span>javaScript</span><span>65%</span></li>
+                                    <li><span>jQuery</span><span>75%</span></li>
+                                    <li><span>Visual Studio Code</span><span>90%</span></li>
+                                    <li><span>Github</span><span>80%</span></li>
+                                    <li><span>Ovenapp</span><span>90%</span></li>
+                                </ul>
+                            </li>
+                        </ul>          
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </article>
+                    <!-- <article class="bottom-bar">
+                        <p>the Future depends on what you do today.</p>
+                    </article> -->
+                </div>
+            </section>
+            <section id="project-des" class="section">
+                <div class="container">
+                    <h2>PROJECT ,</h2>
+                    <article class="swiper desSwiper">
+                        <ul class="swiper-wrapper">
+                            <li class="swiper-slide">
+                                <div class="img-box">
+                                    <img src="./images/img01.jpg" alt="img01">
+                                </div>
+                                <div class="contents">
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate, cumque.</p>
+                                    <div class="btn-view">view</div>
+                                </div>
+                            </li>
+                            <li class="swiper-slide">
+                                <div class="img-box">
+                                    <img src="./images/img01.jpg" alt="img01">
+                                </div>
+                                <div class="contents">
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate, cumque.</p>
+                                    <div class="btn-view">view</div>
+                                </div>
+                            </li>
+                            <li class="swiper-slide">
+                                <div class="img-box">
+                                    <img src="./images/img01.jpg" alt="img01">
+                                </div>
+                                <div class="contents">
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate, cumque.</p>
+                                    <div class="btn-view">view</div>
+                                </div>
+                            </li>
+                            <li class="swiper-slide">
+                                <div class="img-box">
+                                    <img src="./images/img01.jpg" alt="img01">
+                                </div>
+                                <div class="contents">
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate, cumque.</p>
+                                    <div class="btn-view">view</div>
+                                </div>
+                            </li>
+                            <li class="swiper-slide">
+                                <div class="img-box">
+                                    <img src="./images/img01.jpg" alt="img01">
+                                </div>
+                                <div class="contents">
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate, cumque.</p>
+                                    <div class="btn-view">view</div>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="swiper-pagination"></div>
+                    </article>
+                </div>
+            </section>
+            <section id="project-pub" class="section">
+                <div class="container">
+                    <h2>PROJECT ,</h2>
+                    <article class="swiper pubSwiper">
+                        <ul class="swiper-wrapper">
+                            <li class="swiper-slide">
+                                <article class="pub-sum">
+                                    <div class="img-box desk-box">
+                                        <img src="./images/img01.jpg" alt="img01">
+                                    </div>
+                                    <div class="img-box mob-box">
+                                        <img src="./images/img01.jpg" alt="img01">
+                                    </div>
+                                </article>
+                                <article class="pub-contents">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio enim laborum explicabo non. Iusto, magnam.</p>
+                                    <div class="btn-git">github</div>
+                                    <div class="btn-site">view</div>
+                                </article>
+                            </li>
+                            <li class="swiper-slide">
+                                <article class="pub-sum">
+                                    <div class="img-box desk-box">
+                                        <img src="./images/img01.jpg" alt="img01">
+                                    </div>
+                                    <div class="img-box mob-box">
+                                        <img src="./images/img01.jpg" alt="img01">
+                                    </div>
+                                </article>
+                                <article class="pub-contents">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio enim laborum explicabo non. Iusto, magnam.</p>
+                                    <div class="btn-git">github</div>
+                                    <div class="btn-site">view</div>
+                                </article>
+                            </li>
+                            <li class="swiper-slide">
+                                <article class="pub-sum">
+                                    <div class="img-box desk-box">
+                                        <img src="./images/img01.jpg" alt="img01">
+                                    </div>
+                                    <div class="img-box mob-box">
+                                        <img src="./images/img01.jpg" alt="img01">
+                                    </div>
+                                </article>
+                                <article class="pub-contents">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio enim laborum explicabo non. Iusto, magnam.</p>
+                                    <div class="btn-git">github</div>
+                                    <div class="btn-site">view</div>
+                                </article>
+                            </li>
+                        </ul>
+                        <div class="swiper-pagination"></div>
+                    </article>
+                </div>
+            </section>
+            <section id="contact" class="section">
+                <div class="container">
+                    <h2>CONTACT</h2>
+                    <div>email</div>
+                    <div>sns</div>
+                </div>
+            </section>
+        </main>
+
+
+        <script>
+            // fullpage evnet
+            new fullpage('#fullpage', {
+                //options here
+                // autoScrolling:true,
+                // scrollHorizontally: true,
+                anchors:['home', 'about', 'project-des', 'project-pub','contact'],
+            });
+
+            // aboutSwiper event
+            var swiper = new Swiper(".aboutSwiper", {
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                },
+            });
+
+            // desSwiper event
+            var swiper = new Swiper(".desSwiper", {
+                // loop: true,
+                centeredSlides: true,
+                slidesPerView: 'auto',
+                slideToClickedSlide: true,
+                effect: 'coverflow',
+                coverflowEffect: {
+                    rotate: 0,
+                    slideShadows: false,
+                    stretch:-10,
+                    scale:0.9,
+                },
+                pagination: {
+                    el: ".swiper-pagination",
+                    type: "fraction",
+                },
+            });
+
+            // pubSwiper event
+            var swiper = new Swiper(".pubSwiper", {
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                },
+                pagination: {
+                    el: ".swiper-pagination",
+                    type: "fraction",
+                },
+            });
+
+            // theme change nav-btn event
+            $('.btn-theme').click(function(){
+                $('.theme-op').slideToggle(300);
+            });
+        </script>
+    </section>
+</body>
+</html>
