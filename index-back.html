@@ -123,7 +123,6 @@
             text-align: right;
         } */
 
-
         /* aside .btn-nav */
         .btn-nav{
             display:none;
@@ -274,9 +273,16 @@
         }
         .about .profile-art03 li{
             display:grid;
-            grid-template-columns:1fr 3fr;
+            grid-template-columns:repeat(6,1fr);
             margin-bottom:20px;
-
+        }
+        
+        .about .profile-art03 li h3{
+            grid-column:1/3;
+        }
+        
+        .about .profile-art03 li p{
+            grid-column:3/-1;
         }
 
         .about .inform{
@@ -352,101 +358,27 @@
         
 
         /* project-des style */
-        .project-des::after{
-            content:'';
-            display:block;
-            position:absolute;
-            bottom:0;
-            width:100%;
-            height:40%;
-            background:var(--main-color-40);
-        }
-        .project-des .container{
-            padding-top:100px;
-        }
         .desSwiper .swiper-slide{
-            width:28%;
+            width:20%;
             margin-right:10px;
             border-radius:15px;
             overflow:hidden;
-            box-shadow: 0 10px 10px -8px var(--main-color);
         }
         .desSwiper .img-box{
             position:relative;
         }
         .desSwiper .contents{
             display:none;
-            flex-flow:column nowrap;
-            justify-content: space-between;
             position:absolute;
             top:0;
             bottom:0;
             left:0;
             right:0;
-            padding:48px 36px;
             background:rgba(0, 0, 0, 0.3);
-            font-family:'NanumSquareNeo';
-            font-size:20px;
-            color:var(--text-color-wh);
-            text-align: center;
         }
-        .desSwiper .btn-view{
-            font-family:'EB';
-            font-size:24;
-            cursor:pointer;
-            
+        .desSwiper .contents:hover{
+            display:block;
         }
-        .desSwiper .btn-view:hover{
-            text-decoration:underline;
-        }
-        .desSwiper .swiper-slide:hover .contents{
-            display:flex;
-        }
-
-        .desSwiper .swiper-pagination {
-            position: static;
-            margin-top:24px;
-            font-size: 18px;
-            color: var(--text-color-wh);
-            font-family: 'UbuntuSans';
-        }
-
-        .des-modal {
-            display:none;
-            position: absolute;
-            z-index:90;
-            left:0;
-            right:0;
-            top:0;
-            bottom:0;
-            overflow: hidden;
-            background: rgba(0,0,0,0.5);
-        }
-        .des-modal .modal-popup{
-            position:absolute;
-            left:0;
-            right:0;
-            top:0;
-            bottom:0;
-            width:50%;
-            height:80vh;
-            margin:auto;
-            border-radius:16px;
-            background:var(--text-color-wh);
-            overflow-y:scroll;
-        }
-        
-        .des-modal .btn-close{
-            position:absolute;
-            z-index:91;
-            left:20px;
-            top:6px;
-            cursor:pointer;
-            text-shadow:0px 2px 2px var(--main-color-40);
-        }
-        
-
-
 
         /* project-pub style */
         .pubSwiper .swiper-slide{
@@ -476,7 +408,8 @@
 
 
 
-        @media (max-width:1280px){
+        /* media query */
+        @media (max-width:1200px){
             /* header */
             #header{
                 font-size:16px;
@@ -496,6 +429,9 @@
             }
 
             /* home */
+            /* .home{  
+                background-position-x:-200px;
+            } */
             .home .container{
                 max-width:900px;
             }
@@ -529,12 +465,10 @@
                 font-size:60px;
             }
             .about .inform{
-                padding:0 80px;
-            }
-            .about .skills-art01 {
-                padding: 0 80px;
+                padding:0 160px;
             }
             .about .skills-art01::after{
+                /* right:0; */
                 font-size:60px;
             }
             .about .skills ul li{
@@ -542,26 +476,14 @@
                 margin:0 auto 40px;
                 font-size:18px;
             }
-
-            /* design */
-            .desSwiper .swiper-slide{
-                width:28%;
-            }
-
-            
         }
 
-        @media (max-width:768px){
+        /* tablet ver */
+        @media (max-width:940px){
             /* header */
             #header{
                 transform:translatex(-1000px);
                 transition:0.5s;
-                width:auto;
-                height:100vh;
-            }
-            #header .container{
-                display:block;
-                padding:50px 0;
             }
             #header.active{
                 transform:translatex(0px);
@@ -574,6 +496,14 @@
             }
             #header h1 a{
                 background-image:none;
+            }
+            #header{
+                width:auto;
+                height:100vh;
+            }
+            #header .container{
+                display:block;
+                padding:50px 0;
             }
             #header nav ul{
                 flex-flow:column nowrap;
@@ -594,12 +524,28 @@
             }
             .title-art::before{
                 left:-200px;
-                height:32px;
             }
             .title-art::after{
                 display:none;
             }
 
+            /* about */
+            .about .container{
+                padding:80px 30px 0;
+                position:relative;
+            }
+            .about h3{
+                font-size:32px;
+                color:var(--main-color);
+            }
+            .about p{
+                font-family:'NanumSquareNeo';
+                font-size:24px;
+            }
+
+
+        }
+        @media (max-width:720px){
             /* home */
             .home .container{
                 max-width:700px;
@@ -614,94 +560,7 @@
             }
 
             /* about */
-            .about .container{
-                padding:30px 40px 0;
-            }
-            .about h3{
-                font-size:18px;
-            }
-            .about p{
-                font-size:14px;
-            }
-
-            .about .profile{
-                gap:20px;
-                display:flex;
-                flex-flow:column nowrap;
-            }
-            .about .profile-art01 .img-box{
-                position:static;
-                margin:0 auto;
-                width:24%;
-                height:36%;
-            }
-            .about .profile-art01 img{
-                position:static;
-            }
-            .about .profile-art01 .img-box::after{
-                display:none;
-            }
-            .about .profile-art02{
-                grid-area:auto;
-                text-align: center;
-            }
-            .about .profile-art02::after{
-                left:0;
-                right:0;
-                top:32px;
-                text-align: center;
-                font-size:50px;
-                line-height:1;
-            }
-            .about .profile-art03 li{
-                grid-template-columns:repeat(6,1fr);
-            }
-            .about .profile-art03 li h3{
-                grid-column:2/3;
-            }
-            .about .profile-art03 li p{
-                grid-column:3/-1
-            }
-
-            .about .inform{
-                padding:0 90px;
-                display:flex;
-                flex-flow:column nowrap;
-            }
-            .about .inform h3{
-                margin-bottom:16px;
-            }
-            .about .inform p{
-                margin-bottom:18px;
-            }
-            .about .inform li span{
-                font-size:12px;
-            }
-
-            .about .skills-art01{
-                padding:0 80px;
-            }
-            .about .skills-art01::after{
-                font-size:50px;
-                right:50px;
-                top:-80px;
-            }
-            .about .skills ul li::before {
-                bottom: -20px;
-            }
-            .about .skills ul li .after {
-                bottom: -20px;
-            }
-            .about .skills ul li{
-                width:80%;
-                margin:0 auto 30px;
-            }
-            .swiper-button-next:after, .swiper-button-prev:after {
-                font-size:20px;
-            }
-
         }
-
         @media (max-width:520px){
             /* home */
             .home #typing{
@@ -712,95 +571,9 @@
                 font-size:20px;
                 letter-spacing:5px;
             }
-            
-            /* main */
-            .title-art h2{
-                left:70px;
-                top:45px;
-                font-size:24px;
-            }
-            .title-art::before{
-                left:-250px;
-                top:40px;
-                height:24px;
-            }
-            section .container>article:last-child {
-                padding:0;
-            }
-
-            /* about */
-            .about .container{
-                padding:120px 16px 16px;
-            }
-            .about h3{
-                font-size:14px;
-            }
-            .about p{
-                font-size:11px;
-            }
-
-            .about .profile{
-                gap:16px;
-            }
-            .about .profile-art01 .img-box{
-                width:30%;
-                height:45%;
-            }
-            .about .profile-art02{
-                padding-top:30px;
-            }
-            .about .profile-art02::after{
-                top:0;
-                font-size:38px;
-            }
-            .about .profile-art03 li{
-                grid-template-columns:repeat(6,1fr);
-            }
-            .about .profile-art03 li h3{
-                grid-column:2/3;
-            }
-            .about .profile-art03 li p{
-                grid-column:3/-1
-            }
-
-            .about .inform{
-                padding:0 50px;
-            }
-            .about .inform h3{
-                margin-bottom:8px;
-            }
-            .about .inform p{
-                margin-bottom:10px;
-            }
-            .about .inform li span{
-                font-size:8px;
-            }
-            
-            .about .skills-art01{
-                padding:0 40px;
-            }
-            .about .skills-art01::after{
-                display:none;
-            }
-            .about .skills ul li{
-                width:90%;
-                margin:0 auto 20px;
-                font-size:14px;
-            }
-            .about .skills ul li::before{
-                bottom:-10px;
-                height:8px;
-            }  
-            .about .skills li .after{
-                bottom:-10px;
-                height:8px;
-            }
 
         }
         @media (max-width:480px){
-
-        }
-        @media (max-width:360px){
 
         }
     </style>
@@ -925,12 +698,15 @@
                         <div class="swiper-button-next"></div>
                         <div class="swiper-button-prev"></div>
                     </article>
+                    <!-- <article class="bottom-bar">
+                        <p>the Future depends on what you do today.</p>
+                    </article> -->
                 </div>
             </section>
             <section class="section project-des">
                 <div class="container">
                     <article class="title-art">
-                        <h2>DESIGN ,</h2>
+                        <h2>PROJECT ,</h2>
                     </article>
                     <article class="swiper desSwiper">
                         <ul class="swiper-wrapper">
@@ -940,7 +716,7 @@
                                 </div>
                                 <div class="contents">
                                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate, cumque.</p>
-                                    <div class="btn-view">VIEW</div>
+                                    <div class="btn-view">view</div>
                                 </div>
                             </li>
                             <li class="swiper-slide">
@@ -949,7 +725,7 @@
                                 </div>
                                 <div class="contents">
                                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate, cumque.</p>
-                                    <div class="btn-view">VIEW</div>
+                                    <div class="btn-view">view</div>
                                 </div>
                             </li>
                             <li class="swiper-slide">
@@ -958,7 +734,7 @@
                                 </div>
                                 <div class="contents">
                                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate, cumque.</p>
-                                    <div class="btn-view">VIEW</div>
+                                    <div class="btn-view">view</div>
                                 </div>
                             </li>
                             <li class="swiper-slide">
@@ -967,7 +743,7 @@
                                 </div>
                                 <div class="contents">
                                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate, cumque.</p>
-                                    <div class="btn-view">VIEW</div>
+                                    <div class="btn-view">view</div>
                                 </div>
                             </li>
                             <li class="swiper-slide">
@@ -976,27 +752,18 @@
                                 </div>
                                 <div class="contents">
                                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate, cumque.</p>
-                                    <div class="btn-view">VIEW</div>
+                                    <div class="btn-view">view</div>
                                 </div>
                             </li>
                         </ul>
                         <div class="swiper-pagination"></div>
                     </article>
-                    <aside class="des-modal">
-                        <!-- load data -->
-                        <div class="modal-popup">
-                            <div class="btn-close">x</div>
-                            <!-- <div id="des-morepage" class="btn-more"><a href="./design-page01.html" target='_blank'>MORE</a></div> -->
-                            <!-- <iframe id="des-link" src="./design-page01.html" width="100%" height="100%"> </iframe> -->
-                            <img id="modal-img" src="./images/img-design01.png" alt="상세페이지">
-                        </div>
-                    </aside>
                 </div>
             </section>
             <section class="section project-pub">
                 <div class="container">
                     <article class="title-art">
-                        <h2>PUBLISHING ,</h2>
+                        <h2>PROJECT ,</h2>
                     </article>
                     <article class="swiper pubSwiper">
                         <ul class="swiper-wrapper">
@@ -1064,7 +831,7 @@
             // fullpage evnet
             new fullpage('#fullpage', {
                 anchors:['home', 'about', 'project-des', 'project-pub','contact'],
-                // responsiveWidth:940,
+                responsiveWidth:940,
             });
 
             // mobile header btn event
@@ -1101,14 +868,12 @@
             typingStart();
 
             // aboutSwiper event
-            
             var swiper = new Swiper(".aboutSwiper", {
                 navigation: {
                     nextEl: ".swiper-button-next",
                     prevEl: ".swiper-button-prev",
                 },
             });
-            
 
             // desSwiper event
             var swiper = new Swiper(".desSwiper", {
@@ -1120,29 +885,13 @@
                 coverflowEffect: {
                     rotate: 0,
                     slideShadows: false,
-                    stretch:-20,
+                    stretch:-10,
                     scale:0.9,
                 },
                 pagination: {
                     el: ".swiper-pagination",
                     type: "fraction",
                 },
-            });
-
-            // des modal창 띄우기 event
-            $('.btn-view').click(function(){
-                // btn-view가 속한 slide idx 구하기
-                viewIdx = $(this).parent().parent().index();
-                // url 변수저장하기
-                let desImg = `./images/img-design0${viewIdx + 1}.png`;
-                // img src 변경하기
-                $('#modal-img').attr("src", desImg);
-                // modal 보여주기
-                $('.des-modal').show();
-
-            });
-            $('.btn-close').click(function(){
-                $('.des-modal').hide();
             });
 
             // pubSwiper event
@@ -1177,9 +926,6 @@
                 }
             };
             fnProgress();
-            $(window).scroll(function(){
-                console.log($(this).scrollTop());
-            })
 
         </script>
     </section>
