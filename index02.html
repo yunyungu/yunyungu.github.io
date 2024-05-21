@@ -273,16 +273,9 @@
         }
         .about .profile-art03 li{
             display:grid;
-            grid-template-columns:repeat(6,1fr);
+            grid-template-columns:1fr 3fr;
             margin-bottom:20px;
-        }
-        
-        .about .profile-art03 li h3{
-            grid-column:1/3;
-        }
-        
-        .about .profile-art03 li p{
-            grid-column:3/-1;
+
         }
 
         .about .inform{
@@ -531,16 +524,81 @@
 
             /* about */
             .about .container{
-                padding:80px 30px 0;
-                position:relative;
+                padding:60px 40px 0;
             }
             .about h3{
-                font-size:32px;
+                font-size:18px;
                 color:var(--main-color);
             }
             .about p{
                 font-family:'NanumSquareNeo';
-                font-size:24px;
+                font-size:14px;
+            }
+
+            .about .profile{
+                gap:30px;
+                display:flex;
+                flex-flow:column nowrap;
+            }
+            .about .profile-art01{
+                grid-area:auto;
+            }
+            .about .profile-art01 .img-box{
+                position:static;
+                margin:0 auto;
+                width:20%;
+                height:30%;
+            }
+            .about .profile-art01 img{
+                position:static;
+            }
+            .about .profile-art01 .img-box::after{
+                display:none;
+            }
+            .about .profile-art02{
+                grid-area:auto;
+                text-align: center;
+            }
+            .about .profile-art02::after{
+                left:0;
+                right:0;
+                text-align: center;
+                font-size:50px;
+            }
+            .about .profile-art03 li{
+                grid-template-columns:repeat(6,1fr);
+            }
+            .about .profile-art03 li h3{
+                grid-column:2/3;
+            }
+            .about .profile-art03 li p{
+                grid-column:3/-1
+            }
+
+            .about .inform{
+                padding:0 90px;
+                display:flex;
+                flex-flow:column nowrap;
+            }
+            .about .inform h3{
+                margin-bottom:16px;
+            }
+            .about .inform p{
+                margin-bottom:18px;
+            }
+            
+            .about .inform li span{
+                font-size:12px;
+            }
+            .about .skills-art01{
+                padding:0 80px;
+            }
+            .about .skills-art01::after{
+                font-size:50px;
+            }
+            .about .skills ul li{
+                width:80%;
+                margin:0 auto 40px;
             }
 
 
@@ -831,7 +889,7 @@
             // fullpage evnet
             new fullpage('#fullpage', {
                 anchors:['home', 'about', 'project-des', 'project-pub','contact'],
-                responsiveWidth:940,
+                // responsiveWidth:940,
             });
 
             // mobile header btn event
@@ -868,12 +926,14 @@
             typingStart();
 
             // aboutSwiper event
+            
             var swiper = new Swiper(".aboutSwiper", {
                 navigation: {
                     nextEl: ".swiper-button-next",
                     prevEl: ".swiper-button-prev",
                 },
             });
+            
 
             // desSwiper event
             var swiper = new Swiper(".desSwiper", {
