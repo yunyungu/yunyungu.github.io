@@ -29,10 +29,10 @@
                         <li><a href="#contact">CONTACT</a></li>
                         <li class="btn-theme">
                             <a href="#" class="btn-theme">set</a>
-                            <!-- <ul class="theme-op">
-                                <li><a href="#">green theme</a></li>
-                                <li><a href="#">brown theme</a></li>
-                            </ul> -->
+                            <ul class="theme-op">
+                                <li><a id="green" href="#">green theme</a></li>
+                                <li><a id="brown" href="#">brown theme</a></li>
+                            </ul>
                         </li>
                         
                     </ul>
@@ -418,11 +418,7 @@
                 },
             });
 
-            // theme change nav-btn event
-            // $('.btn-theme').click(function(){
-            //     $('.theme-op').slideToggle(300);
-            // });
-
+            
             // skill li에 span추가
             $('.about .skills li').append('<span class="after"></span>');
             let t=0;
@@ -441,6 +437,39 @@
             $(window).scroll(function(){
                 console.log($(this).scrollTop());
             })
+
+
+            // theme change btn event
+            $('.btn-theme').click(function(){
+                $('.theme-op').slideToggle(300);
+            });
+
+            const brown = document.getElementById('brown');
+            const green = document.getElementById('green');
+            const home = document.querySelector('.home');            
+
+            brown.addEventListener('click', function() {
+                document.documentElement.style.setProperty("--main-color","#413a32");
+                document.documentElement.style.setProperty("--main-color-40","rgb(65, 58, 50, 0.3)");
+                document.documentElement.style.setProperty("--line-color","#fefaee");
+                document.documentElement.style.setProperty("--back-color","#ccbba9");
+                document.documentElement.style.setProperty("--tit-text-color","#000");
+                document.documentElement.style.setProperty("--stit-text-color","#91765a");
+                document.documentElement.style.setProperty("--xl-txt-color","rgb(254, 250, 238, 0.3)");
+                home.style.background='url(./images/background-bw.jpg) no-repeat center';
+            });
+            green.addEventListener('click', function() {
+                document.documentElement.style.setProperty("--main-color","#145e50");
+                document.documentElement.style.setProperty("--main-color-40","rgba(20, 94, 80, 0.4)");
+                document.documentElement.style.setProperty("--line-color","#808080");
+                document.documentElement.style.setProperty("--back-color","#efefef");
+                document.documentElement.style.setProperty("--tit-text-color","#145e50");
+                document.documentElement.style.setProperty("--stit-text-color","#145e50");
+                document.documentElement.style.setProperty("--xl-txt-color","rgba(128, 128, 128, 0.2)");
+                home.style.background='url(./images/background-gr.jpg) no-repeat center';
+            });
+           
+           
 
         </script>
     </section>
