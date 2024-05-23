@@ -63,17 +63,17 @@ body{
 }
 .section h3{
     font-family:'EB';
-    font-size:24px;
+    font-size:28px;
     color:var(--main-color);
 }
 .section h4{
     font-family:'UbuntuSans';
-    font-size:32px;
+    font-size:28px;
     color:var(--main-color);
 }
 .section p{
     /* root 기본폰트설정 */
-    font-size:22px;
+    /* font-size:24px; */
     word-break:keep-all;
 }
 .section .btn{

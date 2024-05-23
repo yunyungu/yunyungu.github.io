@@ -173,6 +173,9 @@
     column-gap:20px;
     padding:0 180px;
 }
+.about .inform>article{
+    margin-bottom:1em;
+}
 .about .info-art01{
     grid-row:1/3;
 }
@@ -187,11 +190,8 @@
 }
 .about .inform li span{
     display:block;
-    font-size:18px;
+    font-size:16px;
     color:var(--line-color)
-}
-.about .inform>article{
-    margin-bottom:1em;
 }
 
 .about .skills-art01{
@@ -216,9 +216,9 @@
     display:flex;
     justify-content:space-between;
     width:40%;
-    margin:0 auto 3em;
+    margin:0 auto 2.5em;
     font-family:'UbuntuSans';
-    font-size:18px;
+    font-size:22px;
 }
 .about .skills ul li::before{
     content:'';
@@ -420,11 +420,16 @@
     background:var(--main-color);
     color:var(--text-color-wh);
 }
+.contact .container{
+    display:flex;
+    flex-flow:column nowrap;
+    align-items:center;
+}
 .contact .container::before{
     left:50%;
     top:155px;
     transform:translateX(-50%);
-    width:32%;
+    width:22%;
     background:var(--text-color-wh);
     opacity:0.4;
 }
@@ -451,15 +456,12 @@
     flex-flow:row nowrap;
     justify-content:space-evenly;
     align-items:flex-start;
-    margin-bottom:20%;
+    margin-bottom:15%;
 }
 .contact-con li{
     display:flex;
     flex-flow:column nowrap;
     align-items: center;
-}
-.contact-con li>p{
-    font-family:'NanumSquareNeo';
 }
 .contact-con img{
     width:100px;
@@ -485,19 +487,19 @@
         padding-top:180px 20px 20px;
     }
     .section h2{
-        font-size:32px;
+        font-size:38px;
     }
     .section h3{
-        font-size:20px;
+        font-size:24px;
     }
     .section h4{
-        font-size:20px;
+        font-size:24px;
     }
     .section p{
-        font-size:16px;
+        font-size:18px;
     }
     .section .btn{
-        font-size:16px;
+        font-size:18px;
     }
     .section .art-tit{
         top:80px;
@@ -549,19 +551,22 @@
         font-size:60px;
         top:8px;
     }
+    .about .inform li span{
+        font-size:14px;
+    }
+    .about .skills ul li{
+        font-size:18px;
+    }
     .about .skills ul li::before,
     .about .skills li .after{
         bottom:-20px;
         height:10px;
     }
-    .about .inform li span{
-        font-size:12px;
-    }
 
     /* design */
     .desSwiper .swiper-slide{
-        width:240px;
-        height:380px;
+        width:220px;
+        height:330px;
     }
     .desSwiper .contents{
         padding:24px 18px
@@ -588,10 +593,10 @@
         width:22%;
     }
     .contact address{
-        font-size:12px;
+        font-size:16px;
     }
     .contact address p{
-        font-size:12px;
+        font-size:16px;
     }
 
 }
@@ -600,29 +605,29 @@
 @media (max-width:768px){
     /* 전체 스타일 */
     .section .container{
-        padding-top:20px 16px 16px;
+        padding:20px 16px 16px;
     }
     .section h2{
-        font-size:24px;
+        font-size:32px;
     }
     .section h3{
-        font-size:18px;
+        font-size:20px;
     }
     .section h4{
-        font-size:16px;
+        font-size:20px;
     }
     .section p{
-        font-size:12px;
+        font-size:16px;
     }
     .section .btn{
-        font-size:12px;
+        font-size:16px;
     }
     .section .art-tit{
-        top:20px;
+        top:60px;
         left:20%;
     }
     .section .container::before{
-        top:15px;
+        top:60px;
         width:25%;
         height:24px;
     }
@@ -636,8 +641,8 @@
         font-size:24px;
     }
     .section .swiper-pagination{
-        font-size: 12px;
-        margin-top:30px;
+        font-size: 14px;
+        margin-top:60px;
     }
 
 
@@ -766,7 +771,6 @@
     }
     .about .skills ul li{
         width:80%;
-        margin:0 auto 30px;
     }
     .swiper-button-next:after, .swiper-button-prev:after {
         font-size:20px;
@@ -775,8 +779,8 @@
 
     /* design */
     .desSwiper .swiper-slide{
-        width:200px;
-        height:300px;
+        width:260px;
+        height:390px;
     }
     .desSwiper .contents{
         padding:20px 16px
@@ -795,7 +799,7 @@
 
      /* contact */
      .contact .container::before{
-        top:40px;
+        top:86px;
         width:22%;
     }
     .contact .art-tit{
@@ -804,11 +808,14 @@
     .contact .art-tit>span{
         margin:0;
     }
+    .contact-con ul{
+        margin-bottom:50%;
+    }
     .contact address{
-        font-size:11px;
+        font-size:14px;
     }
     .contact address p{
-        font-size:11px;
+        font-size:14px;
     }
     .contact-con img{
         width:80px;
@@ -817,6 +824,159 @@
 
 
 @media (max-width:520px){
+    /* 전체스타일 */
+    .section .container{
+        padding:80px 16px 16px;
+    }
+    .section h2{
+        font-size:22px;
+    }
+    .section h3{
+        font-size:14px;
+    }
+    .section h4{
+        font-size:14px;
+    }
+    .section p{
+        font-size:11px;
+    }
+    .section .btn{
+        font-size:11px;
+    }
+    .section .art-tit{
+        top:31px;
+    }
+    .section .art-tit>h2{
+        margin-right:10px;
+    }
+    .section .container::before{
+        top:28px;
+        height:22px;
+    }
+    .section .swiper-button-next:after, .section .swiper-button-prev:after {
+        font-size:20px;
+    }
+    .section .swiper-pagination{
+        font-size: 11px;
+    }
+
+
+    /* home */
+    .home #typing{
+        font-size:32px;
+        letter-spacing:10px;
+    }
+    .home h3{
+        font-size:20px;
+        letter-spacing:5px;
+    }
+
+
+    /* about */
+    .about .profile{
+        gap:16px;
+    }
+    .about .profile-art01 .img-box{
+        width:30%;
+        height:45%;
+    }
+    .about .profile-art02{
+        padding-top:20px;
+    }
+    .about .profile-art02::after{
+        top:0;
+        font-size:36px;
+    }
+    .about .profile-art03 li{
+        grid-template-columns:repeat(6,1fr);
+    }
+    .about .profile-art03 li h3{
+        grid-column:2/3;
+    }
+    .about .profile-art03 li p{
+        grid-column:3/-1
+    }
+
+    .about .inform{
+        padding:0 60px;
+    }
+    .about .inform>article{
+        margin-bottom:0.8em;
+    }
+    .about .inform li span{
+        font-size:8px;
+    }
+    .about .inform p{
+        margin-bottom:0.8em;
+    }
+    
+    .about .skills-art01{
+        padding:0 40px;
+    }
+    .about .skills-art01::after{
+        display:none;
+    }
+    .about .skills ul li{
+        width:90%;
+        margin:0 auto 2em;
+        font-size:14px;
+    }
+    .about .skills ul li::before,
+    .about .skills ul li .after{
+        bottom:-10px;
+        height:8px;
+    }
+
+
+    /* design */
+    .desSwiper .swiper-slide{
+        width:180px;
+        height:270px;
+    }
+    
+
+    /* publishing */
+    .pubSwiper .swiper-slide{
+        padding:0;
+    }
+    .pubSwiper .pub-thumbnail{
+        gap:10px;
+    }
+    .pubSwiper .img-box{
+        box-shadow:4px 4px 4px var(--xl-txt-color);
+    }
+    .pubSwiper .desk-box{
+        width:180px;
+        height:120px;
+    }
+    .pubSwiper .mob-box{
+        width:120px;
+        height:180px;
+    }
+
+
+    /* contact */
+    .contact .container{
+        padding:16px;
+    }
+    .contact .container::before{
+        top:50px;
+        width:34%;
+    }
+    .contact-con ul{
+        margin-bottom:;
+    }
+    .contact-con img{
+        width:60px;
+        padding:3px;
+        border-radius:4px;
+    }
+    .contact address{
+        font-size:11px;
+    }
+    .contact address p{
+        font-size:11px;
+    }
 
 }
 
@@ -827,5 +987,8 @@
 
 
 @media (orientation: portrait){
-
+    .des-modal .modal-popup{
+            width:90%;
+            height:60vh;
+        }
 }
