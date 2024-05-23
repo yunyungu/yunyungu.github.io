@@ -12,7 +12,7 @@
     <script src="./js/jquery.js"></script>
     <script src="./js/swiper-bundle.min.js"></script>
     <script src="./js/fullpage.min.js"></script>
-    <title>CHAEYUN Portfolio</title>
+    <title>CHAEYUN's Portfolio</title>
     
 </head>
 <body>
@@ -32,7 +32,7 @@
             </div>
         </header>
         <aside class="btn-nav">
-                mobile-nav-button
+            mobile-nav-button
         </aside>
         <main id="fullpage">
             <section class="section home">
@@ -40,10 +40,10 @@
                     <input type="hidden" id="typing-txt" value="parkchaeyun's portfolio.">
                     <h2 id="typing"></h2>
                     <h3>web designer & publisher</h3>
-                    <div class="btn-theme">
+                    <aside class="btn-theme">
                         <a class="theme-op" id="green" href="#">green theme</a>
                         <a class="theme-op" id="brown" href="#">brown theme</a>
-                    </div>
+                    </aside>
                 </div>
             </section>
             <section class="section about">
@@ -309,7 +309,10 @@
                         </ul>
                         <address>
                             <p>본 사이트는 상업적 용도가 아닌 개인 포트폴리오 용으로 제작되었습니다.</p>
-                            Copyright &copy; 2024 by <strong>Park Chae Yun</strong> All right reserved.
+                            <p>Copyright &copy; 2024 by <strong>Park Chae Yun</strong> All right reserved.</p>
+                            <div class="img-box">
+                                <img src="./images/logo.png" alt="logo">
+                            </div>
                         </address>
                     </article>
                 </div>
@@ -442,7 +445,8 @@
 
             const brown = document.getElementById('brown');
             const green = document.getElementById('green');
-            const home = document.querySelector('.home');            
+            const home = document.querySelector('.home');
+            const design = document.querySelector('.design');     
 
             brown.addEventListener('click', function() {
                 document.documentElement.style.setProperty("--main-color","#413a32");
@@ -452,7 +456,10 @@
                 document.documentElement.style.setProperty("--tit-text-color","#000");
                 document.documentElement.style.setProperty("--stit-text-color","#91765a");
                 document.documentElement.style.setProperty("--xl-txt-color","rgb(254, 250, 238, 0.3)");
-                home.style.backgroundImage='url(./images/background-bw.jpg)';
+                home.style.background='url(./images/background-bw.jpg) no-repeat center';
+                home.style.backgroundSize='cover';
+                design.style.background='url(./images/background-bw.jpg) no-repeat center';
+                design.style.backgroundSize='cover';
             });
             green.addEventListener('click', function() {
                 document.documentElement.style.setProperty("--main-color","#145e50");
@@ -462,10 +469,15 @@
                 document.documentElement.style.setProperty("--tit-text-color","#145e50");
                 document.documentElement.style.setProperty("--stit-text-color","#145e50");
                 document.documentElement.style.setProperty("--xl-txt-color","rgba(128, 128, 128, 0.2)");
-                home.style.backgroundImage='url(./images/background-gr.jpg)';
+                home.style.background='url(./images/background-gr.jpg) no-repeat right center';
+                home.style.backgroundSize='cover';
+                design.style.background='url(./images/background-gr.jpg) no-repeat right center';
+                design.style.backgroundSize='cover';
             });
            
-           
+        // 등장효과 애니메이션
+        let skillsLeft = $('.skills').offset().left;
+        console.log(skillsLeft)
 
         </script>
     </section>
