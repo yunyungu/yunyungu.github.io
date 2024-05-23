@@ -27,14 +27,6 @@
                         <li><a href="#project-des">DESIGN</a></li>
                         <li><a href="#project-pub">PUBLISHING</a></li>
                         <li><a href="#contact">CONTACT</a></li>
-                        <li class="btn-theme">
-                            <a href="#" class="btn-theme">set</a>
-                            <ul class="theme-op">
-                                <li><a id="green" href="#">green theme</a></li>
-                                <li><a id="brown" href="#">brown theme</a></li>
-                            </ul>
-                        </li>
-                        
                     </ul>
                 </nav>
             </div>
@@ -48,6 +40,10 @@
                     <input type="hidden" id="typing-txt" value="parkchaeyun's portfolio.">
                     <h2 id="typing"></h2>
                     <h3>web designer & publisher</h3>
+                    <div class="btn-theme">
+                        <a class="theme-op" id="green" href="#">green theme</a>
+                        <a class="theme-op" id="brown" href="#">brown theme</a>
+                    </div>
                 </div>
             </section>
             <section class="section about">
@@ -440,9 +436,9 @@
 
 
             // theme change btn event
-            $('.btn-theme').click(function(){
-                $('.theme-op').slideToggle(300);
-            });
+            // $('.btn-theme').click(function(){
+            //     $('.theme-op').slideToggle(300);
+            // });
 
             const brown = document.getElementById('brown');
             const green = document.getElementById('green');
@@ -456,7 +452,7 @@
                 document.documentElement.style.setProperty("--tit-text-color","#000");
                 document.documentElement.style.setProperty("--stit-text-color","#91765a");
                 document.documentElement.style.setProperty("--xl-txt-color","rgb(254, 250, 238, 0.3)");
-                home.style.background='url(./images/background-bw.jpg) no-repeat center';
+                home.style.backgroundImage='url(./images/background-bw.jpg)';
             });
             green.addEventListener('click', function() {
                 document.documentElement.style.setProperty("--main-color","#145e50");
@@ -466,7 +462,7 @@
                 document.documentElement.style.setProperty("--tit-text-color","#145e50");
                 document.documentElement.style.setProperty("--stit-text-color","#145e50");
                 document.documentElement.style.setProperty("--xl-txt-color","rgba(128, 128, 128, 0.2)");
-                home.style.background='url(./images/background-gr.jpg) no-repeat center';
+                home.style.backgroundImage='url(./images/background-gr.jpg)';
             });
            
            

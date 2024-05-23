@@ -170,24 +170,6 @@ body{
 #header nav ul li{
     margin-left:30px;
 }
-#header nav .btn-theme{
-    position:relative;
-    cursor: pointer;
-    width:26px;
-    background:url(../images/ico-set.svg) no-repeat center;
-    background-size:contain;
-    text-indent:-999999px;
-}
-#header .theme-op{
-    display:none;
-    position:absolute;
-    top: 120%;
-    right: 0;
-    width:240px;
-    color:var(--text-color-bk);
-    text-indent:0;
-    text-align: right;
-}
 
 
 /* aside.btn-nav */
@@ -211,7 +193,6 @@ body{
 .home{
     background:url(../images/background-gr.jpg) no-repeat center;
     background-size:cover;
-    /* background-image:url(../images/background-bw_01.jpg); */
 }
 .home .container{
     display:flex;
@@ -241,6 +222,30 @@ body{
 .home .container::before{
     display:none;
 }
+.home .btn-theme{
+    display:flex;
+    flex-flow:row nowrap;
+    gap:10px;
+    position:absolute;
+    right:100px;
+    bottom:50px;
+}
+.home .theme-op{
+    width:30px;
+    height:30px;
+    border-radius:50%;
+    background:url(../images/heart-gr.svg) no-repeat center;
+    background-size:contain;
+    opacity:0.8;
+    text-indent:-999999px;
+}
+.home #brown{
+    background-image:url(../images/heart-bw.svg);
+}
+.home .theme-op:hover{
+    opacity:1;
+}
+
 
 /* sec.about style */
 .about h3{
@@ -818,6 +823,9 @@ body{
 
 
     /* home */
+    .home{
+        background-position:right center;
+    }
     .home .container{
         max-width:700px;
     }
@@ -828,6 +836,12 @@ body{
     .home h3{
         font-size:20px;
         letter-spacing:10px;
+    }
+    .home .btn-theme{
+        right:30px;
+        bottom:40px;
+    }
+    .home .theme-op{
     }
 
 
