@@ -155,7 +155,7 @@ body{
     background-size:26px;
     padding-left:35px;
     text-indent:-999px;
-    transition:0.3s;
+    transition:0.8s;
     overflow:hidden;
 }
 #header h1 a:hover{
@@ -222,27 +222,28 @@ body{
 .home .container::before{
     display:none;
 }
-.home .btn-theme{
+.btn-theme{
     display:flex;
     flex-flow:row nowrap;
     gap:10px;
-    position:absolute;
+    position:fixed;
+    z-index:100;
     right:100px;
     bottom:50px;
 }
-.home .theme-op{
+.theme-op{
     width:30px;
     height:30px;
-    border-radius:50%;
+    border-radius:20%;
     background:url(../images/heart-gr.svg) no-repeat center;
     background-size:contain;
     opacity:0.8;
     text-indent:-999999px;
 }
-.home #brown{
+#brown{
     background-image:url(../images/heart-bw.svg);
 }
-.home .theme-op:hover{
+.theme-op:hover{
     opacity:1;
 }
 
@@ -380,7 +381,9 @@ body{
 
 /* sec.design style */
 .design{
-    background:var(--main-color);
+    /* background:var(--main-color); */
+    background:url(../images/background-gr.jpg) no-repeat right center;
+    background-size:cover;
 }
 .design .container::before{
     background:var(--text-color-wh);
@@ -430,9 +433,6 @@ body{
 }
 .desSwiper .swiper-slide:hover .contents{
     display:flex;
-}
-.desSwiper .swiper-pagination {
-    color:var(--text-color-wh);
 }
 .des-modal {
     display:none;
@@ -600,22 +600,29 @@ body{
     flex-flow:column nowrap;
     align-items: center;
 }
-.contact-con img{
+.contact-con ul img{
     width:100px;
     padding:6px;
     border-radius:10px;
     background:var(--text-color-wh);
 }
 .contact address{
-    text-align: center;
+    display:flex;
+    flex-flow:column nowrap;
+    gap:1em;
+    align-items:center;
+    text-align:center;
     font-family:'Cormorant';
     word-break:keep-all;
     font-size:18px;
 }
-.contact address p{
+.contact address p:first-child{
     font-family:'NanumSquareNeo';
-    padding-bottom:1em;
     font-size:18px;
+}
+.contact address .img-box{
+    width:40px;
+    margin-top:2em;
 }
 
 @media (max-width:1280px){
@@ -841,8 +848,6 @@ body{
         right:30px;
         bottom:40px;
     }
-    .home .theme-op{
-    }
 
 
     /* about */
@@ -960,10 +965,10 @@ body{
     .contact address{
         font-size:14px;
     }
-    .contact address p{
+    .contact address p:first-child{
         font-size:14px;
     }
-    .contact-con img{
+    .contact-con ul img{
         width:80px;
     }
 }
@@ -1109,18 +1114,20 @@ body{
         top:50px;
         width:34%;
     }
-    .contact-con img{
+    .contact-con ul img{
         width:60px;
         padding:3px;
         border-radius:4px;
     }
     .contact address{
-        font-size:11px;
+        font-size:10px;
     }
-    .contact address p{
-        font-size:11px;
+    .contact address p:first-child{
+        font-size:10px;
     }
-
+    .contact address .img-box{
+        width:25px;
+    }
 }
 
 
