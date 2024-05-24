@@ -8,24 +8,26 @@
 
 UIUX의 개선 및 추가적인 작업물들의 업데이트는 계속될 예정입니다!
 
-반응형 웹사이트 형태를 제공하고 있으며,
-
-가로폭 768px 초과에서는 가로형, (데스크톱, 태블릿의 가로형)
-
-768px 미만에서는 세로형 디스플레이를 기준으로 보여주고 있습니다. (모바일, 태블릿의 세로형)
+<br><br>
 
 <img width="300" alt="가로형태이미지" src="https://github.com/yunyungu/yunyungu.github.io/assets/157336396/487ce21f-21f6-4035-bdbe-1c92bf164a67">
 <img width="300" alt="세로형태이미지" src="https://github.com/yunyungu/yunyungu.github.io/assets/157336396/60cd5db6-94ec-4471-96af-b852e83cfd72">
-
 <br><br>
 
-가로형 디스플레이에서는 header가 상단에 고정된 형태이며,
+> 반응형 웹사이트 형태를 제공하고 있으며,
+> 가로폭 768px 초과에서는 가로형, (데스크톱, 태블릿의 가로형)
+> 768px 미만에서는 세로형 디스플레이를 기준으로 보여주고 있습니다. (모바일, 태블릿의 세로형)
 
-세로형 디스플레이에서는 좌측 상단의 내비 버튼을 통하여 header를 보여줄 수 있습니다.
+<br><br><br>
 
 <img width="800" alt="가로형 상단헤더" src="https://github.com/yunyungu/yunyungu.github.io/assets/157336396/6cea55f0-b44f-4b08-bb55-bfa8dd7b8423">
 <br>
 <img width="400" alt="세로형 좌측헤더" src="https://github.com/yunyungu/yunyungu.github.io/assets/157336396/698b938c-893e-4f01-9566-11e2ec94a89a">
+<br><br>
+
+> 가로형 디스플레이에서는 header가 상단에 고정된 형태이며,
+> 세로형 디스플레이에서는 좌측 상단의 내비 버튼을 통하여 header를 보여줄 수 있습니다.
+
 
 <br><br><br>
 
