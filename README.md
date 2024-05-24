@@ -81,8 +81,14 @@ UIUX의 개선 및 추가적인 작업물들의 업데이트는 계속될 예정
 
 1. Fullpage
 
+<img width="300" alt="brown theme" src="https://github.com/yunyungu/yunyungu.github.io/assets/157336396/429b010a-3c19-4090-a40c-b95673ebec3d">
+<br><br>
+
 > 이 포트폴리오는 페이지별 구분과 스크롤의 부드러운 효과를 적용하기 위하여 fullpage를 활용하여 제작하였습니다.
- 
+
+<br><br>
+
+
 
 2. Swiper
 
@@ -90,6 +96,7 @@ UIUX의 개선 및 추가적인 작업물들의 업데이트는 계속될 예정
 > 이 곳에서 다양한 작업물을을 감상하시길 바랍니다!<br>
 > 추후 업데이트 될 작업물 들은 이곳에 슬라이드형태로 추가될 예정입니다.
 
+<br><br>
 
 <h3> 저에게 연락을 희망하시면, </h3>
 
