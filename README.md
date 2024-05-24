@@ -58,7 +58,7 @@ UIUX의 개선 및 추가적인 작업물들의 업데이트는 계속될 예정
 
 <img width="300" alt="green theme" src="https://github.com/yunyungu/yunyungu.github.io/assets/157336396/b73ab94d-1103-4f5c-ad1d-4a6c0ebf2d73">
 <img width="300" alt="brown theme" src="https://github.com/yunyungu/yunyungu.github.io/assets/157336396/f7bfbf8c-1db9-411f-9f8d-9337fb5cafcd">
-<br>
+<br><br>
 
 > HOME 화면의 하트 아이콘을 통하여 테마 컬러를 변경하실 수 있습니다.<br>
 > 현재 제공하는 테마 컬러는 브라운, 그린 총 2가지 테마를 제공하고 있습니다.<br>
