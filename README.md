@@ -15,7 +15,7 @@ UIUX의 개선 및 추가적인 작업물들의 업데이트는 계속될 예정
 768px 미만에서는 세로형 디스플레이를 기준으로 보여주고 있습니다.
 
 <img width="300" alt="가로형태이미지" src="https://github.com/yunyungu/yunyungu.github.io/assets/157336396/487ce21f-21f6-4035-bdbe-1c92bf164a67">
-<img width="300" alt="세로형태이미지" src="https://github.com/yunyungu/yunyungu.github.io/assets/157336396/b7b59f2c-033b-457a-823d-ec14898b9063">
+<img width="300" alt="세로형태이미지" src="[https://github.com/yunyungu/yunyungu.github.io/assets/157336396/b7b59f2c-033b-457a-823d-ec14898b9063](https://github.com/yunyungu/yunyungu.github.io/assets/157336396/9ac5c56f-0103-4b8a-9aa7-f4b31a36c8e6)">
 
 <br><br><br>
 
