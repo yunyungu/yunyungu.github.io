@@ -15,7 +15,6 @@ UIUX의 개선 및 추가적인 작업물들의 업데이트는 계속될 예정
 768px 미만에서는 세로형 디스플레이를 기준으로 보여주고 있습니다.
 
 <img width="300" alt="가로형태이미지" src="https://github.com/yunyungu/yunyungu.github.io/assets/157336396/487ce21f-21f6-4035-bdbe-1c92bf164a67">
-
 <img width="300" alt="세로형태이미지" src="https://github.com/yunyungu/yunyungu.github.io/assets/157336396/60cd5db6-94ec-4471-96af-b852e83cfd72">
 
 <br><br>
@@ -35,20 +34,16 @@ UIUX의 개선 및 추가적인 작업물들의 업데이트는 계속될 예정
 디자인 및 아이콘, 일러스트
 <br><br>
 <img width="100" alt="photoshop" src="https://github.com/yunyungu/yunyungu.github.io/assets/157336396/8425f38b-e2e8-4d3d-b31a-ffcc492fc7c1">
-
 <img width="100" alt="illust" src="https://github.com/yunyungu/yunyungu.github.io/assets/157336396/5e5af82b-cead-443e-958e-b3d9919fae1f">
 
 <br><br>
 퍼블리싱
 <br><br>
+
 <img width="100" alt="vscode" src="https://github.com/yunyungu/yunyungu.github.io/assets/157336396/01cacb03-858c-4af4-8b85-3a40782f7256">
-
 <img width="100" alt="vscode" src="https://github.com/yunyungu/yunyungu.github.io/assets/157336396/f3e150a5-7e80-4d73-8049-994bdb9968e9">
-
 <img width="100" alt="vscode" src="https://github.com/yunyungu/yunyungu.github.io/assets/157336396/3c97d5f4-0a93-412c-bf39-cdbdbe13b55e">
-
 <img width="100" alt="vscode" src="https://github.com/yunyungu/yunyungu.github.io/assets/157336396/e55a6af9-5f0f-4f1d-95fd-1b2108d2e891">
-
 <img width="100" alt="vscode" src="https://github.com/yunyungu/yunyungu.github.io/assets/157336396/26701d80-6296-43b5-b526-3836bdae1856">
 
 
