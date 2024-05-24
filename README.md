@@ -4,12 +4,13 @@
 신입 웹디자이너&퍼블리셔 박채윤의 포트폴리오 입니다.<br>
 UIUX의 개선 및 작업물들의 업데이트도 진행 중입니다.
 
-<hr>
-<h2>STYLE GUIDE / DESIGN CONCEPT</h2>h2>
-<br>
+---
+
+<h2>STYLE GUIDE / DESIGN CONCEPT</h2>
 (준비중입니다...)
 
-<hr>
+---
+
 <h2> 페이지 소개 </h2>
 <h3> 컬러테마 </h3>
 > HOME 화면의 하트 아이콘을 통하여 테마 컬러를 변경하실 수 있습니다.<br>
