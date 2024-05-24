@@ -32,7 +32,8 @@ UIUX의 개선 및 추가적인 작업물들의 업데이트는 계속될 예정
 
 디자인 및 아이콘, 일러스트
 
-(이미지준비중)
+<img width="100" alt="photoshop" src="https://github.com/yunyungu/yunyungu.github.io/assets/157336396/8425f38b-e2e8-4d3d-b31a-ffcc492fc7c1">
+<img width="100" alt="illust" scr="https://github.com/yunyungu/yunyungu.github.io/assets/157336396/a3337c9f-5321-4872-afdd-610b8fe44b7f">
 
 퍼블리싱
 
