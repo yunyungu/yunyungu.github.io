@@ -6,6 +6,7 @@ UIUX의 개선 및 작업물들의 업데이트도 진행 중에 있습니다.
 
 <hr>
 ## STYLE GUIDE / DESIGN CONCEPT
+<br>
 (준비중입니다)
 
 <hr>
