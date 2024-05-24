@@ -23,7 +23,7 @@ UIUX의 개선 및 추가적인 작업물들의 업데이트는 계속될 예정
 
 세로형 디스플레이에서는 좌측 상단의 내비 버튼을 통하여 header를 보여줄 수 있습니다.
 
-<img width="400" alt="가로형 상단헤더" src="https://github.com/yunyungu/yunyungu.github.io/assets/157336396/6cea55f0-b44f-4b08-bb55-bfa8dd7b8423">
+<img width="600" alt="가로형 상단헤더" src="https://github.com/yunyungu/yunyungu.github.io/assets/157336396/6cea55f0-b44f-4b08-bb55-bfa8dd7b8423">
 <br>
 <img width="400" alt="세로형 좌측헤더" src="https://github.com/yunyungu/yunyungu.github.io/assets/157336396/698b938c-893e-4f01-9566-11e2ec94a89a">
 
