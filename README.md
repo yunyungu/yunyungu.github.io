@@ -92,8 +92,9 @@ UIUX의 개선 및 추가적인 작업물들의 업데이트는 계속될 예정
 2. Swiper
 
 <img width="300" alt="swiper" src="https://github.com/yunyungu/yunyungu.github.io/assets/157336396/2d3104b9-2a3a-4f90-a2b9-c49f2aff68aa">
+<br>
 <img width="300" alt="swiper-publishing page" src="https://github.com/yunyungu/yunyungu.github.io/assets/157336396/9701c26e-cf6c-4f43-8858-bef13e2bca07">
-<img width="300" alt="swiper-design page" src="https://github.com/yunyungu/yunyungu.github.io/assets/157336396/b34d7547-e7e3-4fe4-afc2-252fcc1d9653):>
+<img width="300" alt="swiper-design page" src="https://github.com/yunyungu/yunyungu.github.io/assets/157336396/b34d7547-e7e3-4fe4-afc2-252fcc1d9653)">
 
 <br><br>
 
