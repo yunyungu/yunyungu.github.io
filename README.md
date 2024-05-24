@@ -16,9 +16,10 @@ UIUX의 개선 및 추가적인 작업물들의 업데이트는 계속될 예정
 
 <img width="300" alt="가로형태이미지" src="https://github.com/yunyungu/yunyungu.github.io/assets/157336396/487ce21f-21f6-4035-bdbe-1c92bf164a67">
 
-<img width="300" alt="세로형태이미지" src="[https://github.com/yunyungu/yunyungu.github.io/assets/157336396/b7b59f2c-033b-457a-823d-ec14898b9063](https://github.com/yunyungu/yunyungu.github.io/assets/157336396/9ac5c56f-0103-4b8a-9aa7-f4b31a36c8e6">
+<img width="300" alt="세로형태이미지" src="https://github.com/yunyungu/yunyungu.github.io/assets/157336396/60cd5db6-94ec-4471-96af-b852e83cfd72">
 
-<br><br><br>
+<br><br>
+<br>
 
 ---
 
@@ -35,7 +36,7 @@ UIUX의 개선 및 추가적인 작업물들의 업데이트는 계속될 예정
 
 <img width="100" alt="photoshop" src="https://github.com/yunyungu/yunyungu.github.io/assets/157336396/8425f38b-e2e8-4d3d-b31a-ffcc492fc7c1">
 
-<img width="100" alt="illust" scr="https://github.com/yunyungu/yunyungu.github.io/assets/157336396/b850b5d6-51cd-42f7-8dae-00561f73243e">
+<img width="100" alt="illust" src="https://github.com/yunyungu/yunyungu.github.io/assets/157336396/5e5af82b-cead-443e-958e-b3d9919fae1f">
 
 
 (이미지준비중)
