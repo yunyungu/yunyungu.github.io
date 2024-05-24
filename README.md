@@ -4,7 +4,9 @@
 
 신입 웹디자이너&퍼블리셔 박채윤의 포트폴리오 입니다.
 
-이 웹사이트는 100% 개인창작물입니다.
+이 웹사이트는 100% 개인창작물이며,
+
+UIUX의 개선 및 추가적인 작업물들의 업데이트는 계속될 예정입니다!
 
 반응형 웹사이트 형태를 제공하고 있으며,
 
@@ -15,8 +17,6 @@
 <img width="300" alt="가로형태이미지" src="https://github.com/yunyungu/yunyungu.github.io/assets/157336396/487ce21f-21f6-4035-bdbe-1c92bf164a67">
 <img width="300" alt="세로형태이미지" src="https://github.com/yunyungu/yunyungu.github.io/assets/157336396/b7b59f2c-033b-457a-823d-ec14898b9063">
 
-<br>
-(UIUX의 개선 및 작업물들의 업데이트는 계속 진행 중에 있습니다!)
 <br><br><br>
 
 ---
