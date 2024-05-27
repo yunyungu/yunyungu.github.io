@@ -10,7 +10,7 @@ UIUX의 개선 및 추가적인 작업물들의 업데이트는 계속될 예정
 
 <br><br>
 
-<img width="300" alt="가로형태이미지" src="https://github.com/yunyungu/yunyungu.github.io/assets/157336396/487ce21f-21f6-4035-bdbe-1c92bf164a67">
+<img width="400" alt="가로형태이미지" src="https://github.com/yunyungu/yunyungu.github.io/assets/157336396/487ce21f-21f6-4035-bdbe-1c92bf164a67">
 <img width="300" alt="세로형태이미지" src="https://github.com/yunyungu/yunyungu.github.io/assets/157336396/60cd5db6-94ec-4471-96af-b852e83cfd72">
 <br><br>
 
