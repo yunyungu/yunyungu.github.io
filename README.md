@@ -21,6 +21,7 @@ UIUX의 개선 및 추가적인 작업물들의 업데이트는 계속될 예정
 <br><br><br>
 
 <img width="500" alt="가로형 상단헤더" src="https://github.com/yunyungu/yunyungu.github.io/assets/157336396/6cea55f0-b44f-4b08-bb55-bfa8dd7b8423">
+<br>
 <img width="400" alt="세로형 좌측헤더" src="https://github.com/yunyungu/yunyungu.github.io/assets/157336396/52cd769d-6fa7-479b-be37-bd022ab73541">
 <br><br>
 
