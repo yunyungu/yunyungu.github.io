@@ -40,7 +40,7 @@ UIUX의 개선 및 추가적인 작업물들의 업데이트는 계속될 예정
 
 ---
 
-<h2>사용 툴 소개</h2>
+## 사용 툴 소개
 
 디자인 및 아이콘, 일러스트
 <br><br>
@@ -63,9 +63,9 @@ UIUX의 개선 및 추가적인 작업물들의 업데이트는 계속될 예정
 
 ---
 
-<h2> 상세페이지 소개 </h2>
+## 상세페이지 소개
 
-<h3> 컬러테마 </h3>
+### 컬러 테마
 
 <img width="400" alt="green theme" src="https://github.com/yunyungu/yunyungu.github.io/assets/157336396/b73ab94d-1103-4f5c-ad1d-4a6c0ebf2d73">
 <img width="400" alt="brown theme" src="https://github.com/yunyungu/yunyungu.github.io/assets/157336396/f7bfbf8c-1db9-411f-9f8d-9337fb5cafcd">
@@ -77,7 +77,7 @@ UIUX의 개선 및 추가적인 작업물들의 업데이트는 계속될 예정
 
 <br><br>
 
-<h3> Plugin </h3>
+### Plugin
 
 1. Fullpage
 
@@ -106,9 +106,12 @@ UIUX의 개선 및 추가적인 작업물들의 업데이트는 계속될 예정
 > 이 곳에서 다양한 작업물을을 감상하시길 바랍니다!<br>
 > 추후 업데이트 될 작업물 들은 이곳에 슬라이드형태로 추가될 예정입니다.
 
-<br><br>
 
-<h3> 저에게 연락을 희망하시면, </h3>
+<br><br><br>
+
+---
+
+## 저에게 연락을 희망하신다면,
 
 > 해당 포트폴리오의 가장 마지막 페에지인 contact 페이지를 참고해 주시길 바랍니다.<br>
 > 그곳에서 저의 이메일과 카카오톡 메신저 연락처를 제공하고 있습니다.
