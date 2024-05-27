@@ -1,6 +1,6 @@
 [사이트 바로가기](https://github.com/yunyungu/yunyungu)
 
-# 박채윤의 포트폴리오 :+1:
+# 박채윤의 포트폴리오 :smile:
 
 신입 웹디자이너&퍼블리셔 박채윤의 포트폴리오 입니다.
 
@@ -65,7 +65,7 @@ UIUX의 개선 및 추가적인 작업물들의 업데이트는 계속될 예정
 
 ## 상세페이지 소개
 
-### 컬러 테마
+### :point_right: 컬러 테마
 
 <img width="400" alt="green theme" src="https://github.com/yunyungu/yunyungu.github.io/assets/157336396/b73ab94d-1103-4f5c-ad1d-4a6c0ebf2d73">
 <img width="400" alt="brown theme" src="https://github.com/yunyungu/yunyungu.github.io/assets/157336396/f7bfbf8c-1db9-411f-9f8d-9337fb5cafcd">
@@ -77,7 +77,7 @@ UIUX의 개선 및 추가적인 작업물들의 업데이트는 계속될 예정
 
 <br><br>
 
-### Plugin
+### :point_right: Plugin
 
 1. Fullpage
 
@@ -111,7 +111,7 @@ UIUX의 개선 및 추가적인 작업물들의 업데이트는 계속될 예정
 
 ---
 
-## 저에게 연락을 희망하신다면,
+## 저에게 연락을 희망하신다면, :star:
 
 > 해당 포트폴리오의 가장 마지막 페에지인 contact 페이지를 참고해 주시길 바랍니다.<br>
 > 그곳에서 저의 이메일과 카카오톡 메신저 연락처를 제공하고 있습니다.
