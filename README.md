@@ -10,7 +10,7 @@ UIUX의 개선 및 추가적인 작업물들의 업데이트는 계속될 예정
 
 <br><br>
 
-<img width="400" alt="가로형태이미지" src="https://github.com/yunyungu/yunyungu.github.io/assets/157336396/487ce21f-21f6-4035-bdbe-1c92bf164a67">
+<img width="500" alt="가로형태이미지" src="https://github.com/yunyungu/yunyungu.github.io/assets/157336396/487ce21f-21f6-4035-bdbe-1c92bf164a67">
 <img width="300" alt="세로형태이미지" src="https://github.com/yunyungu/yunyungu.github.io/assets/157336396/60cd5db6-94ec-4471-96af-b852e83cfd72">
 <br><br>
 
@@ -67,8 +67,8 @@ UIUX의 개선 및 추가적인 작업물들의 업데이트는 계속될 예정
 
 <h3> 컬러테마 </h3>
 
-<img width="300" alt="green theme" src="https://github.com/yunyungu/yunyungu.github.io/assets/157336396/b73ab94d-1103-4f5c-ad1d-4a6c0ebf2d73">
-<img width="300" alt="brown theme" src="https://github.com/yunyungu/yunyungu.github.io/assets/157336396/f7bfbf8c-1db9-411f-9f8d-9337fb5cafcd">
+<img width="400" alt="green theme" src="https://github.com/yunyungu/yunyungu.github.io/assets/157336396/b73ab94d-1103-4f5c-ad1d-4a6c0ebf2d73">
+<img width="400" alt="brown theme" src="https://github.com/yunyungu/yunyungu.github.io/assets/157336396/f7bfbf8c-1db9-411f-9f8d-9337fb5cafcd">
 <br><br>
 
 > HOME 화면의 하트 아이콘을 통하여 테마 컬러를 변경하실 수 있습니다.<br>
@@ -83,6 +83,8 @@ UIUX의 개선 및 추가적인 작업물들의 업데이트는 계속될 예정
 
 <img width="300" alt="fullpage" src="https://github.com/yunyungu/yunyungu.github.io/assets/157336396/429b010a-3c19-4090-a40c-b95673ebec3d">
 <br><br>
+<img width="300" alt="fullpage" src="https://github.com/yunyungu/yunyungu.github.io/assets/157336396/454362c6-b891-4477-add2-c5713e868b82">
+
 
 > 이 포트폴리오는 페이지별 구분과 스크롤의 부드러운 효과를 적용하기 위하여
 > 메인 섹션 총 4페이지를 fullpage를 활용하여 제작하였습니다.
