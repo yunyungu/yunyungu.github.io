@@ -22,7 +22,7 @@ UIUX의 개선 및 추가적인 작업물들의 업데이트는 계속될 예정
 
 <img width="800" alt="가로형 상단헤더" src="https://github.com/yunyungu/yunyungu.github.io/assets/157336396/6cea55f0-b44f-4b08-bb55-bfa8dd7b8423">
 <br>
-<img width="400" alt="세로형 좌측헤더" src="https://github.com/yunyungu/yunyungu.github.io/assets/157336396/698b938c-893e-4f01-9566-11e2ec94a89a">
+<img width="400" alt="세로형 좌측헤더" src="https://github.com/yunyungu/yunyungu.github.io/assets/157336396/52cd769d-6fa7-479b-be37-bd022ab73541">
 <br><br>
 
 > 가로형 디스플레이에서는 header가 상단에 고정된 형태이며,
@@ -131,3 +131,9 @@ UIUX의 개선 및 추가적인 작업물들의 업데이트는 계속될 예정
 
 > 해당 포트폴리오의 가장 마지막 페에지인 contact 페이지를 참고해 주시길 바랍니다.<br>
 > 그곳에서 저의 이메일과 카카오톡 메신저 연락처를 제공하고 있습니다.
+
+<img width="800" alt="contact" src="https://github.com/yunyungu/yunyungu.github.io/assets/157336396/925c2e87-fa39-446a-b2aa-059e57cfefa4">
+
+<br><br><br>
+<strong>감사합니다</strong>
+<br><br><br>
