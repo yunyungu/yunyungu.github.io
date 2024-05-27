@@ -95,8 +95,8 @@ UIUX의 개선 및 추가적인 작업물들의 업데이트는 계속될 예정
 
 <img width="300" alt="swiper" src="https://github.com/yunyungu/yunyungu.github.io/assets/157336396/2d3104b9-2a3a-4f90-a2b9-c49f2aff68aa">
 <br>
-<img width="400" alt="swiper-publishing page" src="https://github.com/yunyungu/yunyungu.github.io/assets/157336396/9701c26e-cf6c-4f43-8858-bef13e2bca07">
-<img width="400" alt="swiper-design page" src="https://github.com/yunyungu/yunyungu.github.io/assets/157336396/10c7885c-129a-47c0-944b-dc5a91717395">
+<img width="400" alt="swiper-design page" src="https://github.com/yunyungu/yunyungu.github.io/assets/157336396/a8445da9-fd21-47c1-ab58-bc0b73272902">
+<img width="400" alt="swiper-publishing page" src="https://github.com/yunyungu/yunyungu.github.io/assets/157336396/10c7885c-129a-47c0-944b-dc5a91717395">
 
 
 <br><br>
