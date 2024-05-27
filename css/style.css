@@ -66,6 +66,7 @@ body{
 .section h3{
     font-family:'EB';
     font-size:28px;
+    line-height:1;
     color:var(--stit-text-color);
 }
 .section h4{
@@ -407,6 +408,7 @@ body{
 .design h2{
     color:var(--text-color-wh)
 }
+
 .desSwiper .swiper-slide{
     width:300px;
     height:450px;
@@ -429,6 +431,7 @@ body{
 .desSwiper .swiper-slide:nth-child(5){
     background-image:url(../images/img-design05-thum.png);
 }
+
 .desSwiper .contents{
     display:none;
     flex-flow:column nowrap;
@@ -446,6 +449,7 @@ body{
 .desSwiper .swiper-slide:hover .contents{
     display:flex;
 }
+
 .des-modal {
     display:none;
     position:absolute;
@@ -480,9 +484,10 @@ body{
     top:80px;
     cursor:pointer;
     font-family:'UbuntuSans';
-    font-weight:900;
+    /* font-weight:700; */
     font-size:32px;
-    text-shadow: -1px 0px white, 0px 1px white, 1px 0px white, 0px -1px white;
+    color:var(--text-color-wh);
+    /* text-shadow: -1px 0px white, 0px 1px white, 1px 0px white, 0px -1px white; */
 }
 .desSwiper .swiper-pagination{
     margin-top:80px;
@@ -509,6 +514,7 @@ body{
 .pubSwiper .pub-contents{
     grid-column:5/-1;
 }
+
 .pubSwiper .swiper-slide .img-box{
     border-radius:15px;
     overflow:hidden;
@@ -518,29 +524,50 @@ body{
     box-shadow:10px 10px 10px var(--xl-txt-color);
     transition:3s linear;
 }
+/* 01 포트폴리오 */
 .pubSwiper .slide01 .desk-box{
     background-image:url(../images/img-publishing01-d.jpg);
+    transition:0.5s linear;
 }
 .pubSwiper .slide01 .mob-box{
     background-image:url(../images/img-publishing01-m.jpg);
+    transition:0.5s linear;
+}
+/* 02 디자인페이지 */
+.pubSwiper .slide02{
+    display:none;
 }
 .pubSwiper .slide02 .desk-box{
     background-image:url(../images/img-publishing02-d.jpg);
 }
-.pubSwiper .slide02 .mob-box{
-    background-image:url(../images/img-publishing02-m.jpg);
-}
+/* 03 SNS */
 .pubSwiper .slide03 .desk-box{
     background-image:url(../images/img-publishing03-d.jpg);
 }
+.pubSwiper .slide03 .mob-box{
+    background-image:url(../images/img-publishing03-m.jpg);
+}
+/* 04 메가박스*/
 .pubSwiper .slide04 .desk-box{
     background-image:url(../images/img-publishing04-d.jpg);
 }
+.pubSwiper .slide04 .mob-box{
+    background-image:url(../images/img-publishing04-m.jpg);
+}
+/* 05 빽다방 */
 .pubSwiper .slide05 .desk-box{
     background-image:url(../images/img-publishing05-d.jpg);
 }
 .pubSwiper .slide05 .mob-box{
     background-image:url(../images/img-publishing05-m.jpg);
+}
+/* 06 할리스 */
+.pubSwiper .slide06 .desk-box{
+    background-image:url(../images/img-publishing06-d.jpg);
+}
+/* 07 한솔제지 */
+.pubSwiper .slide07 .desk-box{
+    background-image:url(../images/img-publishing07-d.jpg);
 }
 
 .pub-thumbnail .img-box:hover{
@@ -681,7 +708,7 @@ body{
         font-size:24px;
     }
     .section p{
-        font-size:18px;
+        font-size:16px;
     }
     .section .btn{
         font-size:18px;
@@ -757,7 +784,6 @@ body{
         padding:24px 18px
     }
 
-
     /* publishing */
     .pubSwiper .swiper-slide{
         gap:30px;
@@ -769,6 +795,9 @@ body{
     .pubSwiper .mob-box{
         width:200px;
         height:300px;
+    }
+    .des-modal .btn-close{
+        font-size:30px;
     }
 
 
@@ -831,9 +860,7 @@ body{
     }
 
 
-
-    /* header */
-    
+    /* header */   
     #header{
         transform:translatex(-1000px);
         transition:0.5s;
@@ -976,6 +1003,10 @@ body{
     }
     .desSwiper .contents{
         padding:20px 16px
+    }
+    .des-modal .btn-close{
+        top:100px;
+        font-size:24px;
     }
 
 
@@ -1174,7 +1205,6 @@ body{
 
 @media (orientation: portrait){
     .des-modal .modal-popup{
-            width:90%;
-            height:60vh;
-        }
+        padding:5%;
+    }
 }
