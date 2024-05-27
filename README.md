@@ -82,8 +82,8 @@ UIUX의 개선 및 추가적인 작업물들의 업데이트는 계속될 예정
 1. Fullpage
 
 <img width="300" alt="fullpage" src="https://github.com/yunyungu/yunyungu.github.io/assets/157336396/429b010a-3c19-4090-a40c-b95673ebec3d">
-<br><br>
-<img width="300" alt="fullpage" src="https://github.com/yunyungu/yunyungu.github.io/assets/157336396/454362c6-b891-4477-add2-c5713e868b82">
+<br>
+<img width="600" alt="fullpage-sample" src="https://github.com/yunyungu/yunyungu.github.io/assets/157336396/454362c6-b891-4477-add2-c5713e868b82">
 
 
 > 이 포트폴리오는 페이지별 구분과 스크롤의 부드러운 효과를 적용하기 위하여
@@ -95,8 +95,9 @@ UIUX의 개선 및 추가적인 작업물들의 업데이트는 계속될 예정
 
 <img width="300" alt="swiper" src="https://github.com/yunyungu/yunyungu.github.io/assets/157336396/2d3104b9-2a3a-4f90-a2b9-c49f2aff68aa">
 <br>
-<img width="300" alt="swiper-publishing page" src="https://github.com/yunyungu/yunyungu.github.io/assets/157336396/9701c26e-cf6c-4f43-8858-bef13e2bca07">
-<img width="300" alt="swiper-design page" src="https://github.com/yunyungu/yunyungu.github.io/assets/157336396/b34d7547-e7e3-4fe4-afc2-252fcc1d9653)">
+<img width="400" alt="swiper-publishing page" src="https://github.com/yunyungu/yunyungu.github.io/assets/157336396/9701c26e-cf6c-4f43-8858-bef13e2bca07">
+<img width="400" alt="swiper-design page" src="https://github.com/yunyungu/yunyungu.github.io/assets/157336396/10c7885c-129a-47c0-944b-dc5a91717395">
+
 
 <br><br>
 
