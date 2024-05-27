@@ -129,5 +129,5 @@ UIUX의 개선 및 추가적인 작업물들의 업데이트는 계속될 예정
 <img width="800" alt="contact" src="https://github.com/yunyungu/yunyungu.github.io/assets/157336396/925c2e87-fa39-446a-b2aa-059e57cfefa4">
 
 <br><br><br>
-*감사합니다:bowtie:*
+*감사합니다 :bowtie:*
 <br><br><br>
