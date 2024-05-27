@@ -1,4 +1,4 @@
-[사이트 바로가기](https://github.com/yunyungu/yunyungu)
+[사이트 바로가기](https://yunyungu.github.io/)
 
 # 박채윤의 포트폴리오 :smile:
 
