@@ -84,7 +84,7 @@ UIUX의 개선 및 추가적인 작업물들의 업데이트는 계속될 예정
 <img width="300" alt="fullpage" src="https://github.com/yunyungu/yunyungu.github.io/assets/157336396/429b010a-3c19-4090-a40c-b95673ebec3d">
 <br>
 <img width="600" alt="fullpage-sample" src="https://github.com/yunyungu/yunyungu.github.io/assets/157336396/454362c6-b891-4477-add2-c5713e868b82">
-
+<br><br>
 
 > 이 포트폴리오는 페이지별 구분과 스크롤의 부드러운 효과를 적용하기 위하여
 > 메인 섹션 총 4페이지를 fullpage를 활용하여 제작하였습니다.
@@ -97,14 +97,30 @@ UIUX의 개선 및 추가적인 작업물들의 업데이트는 계속될 예정
 <br>
 <img width="400" alt="swiper-design page" src="https://github.com/yunyungu/yunyungu.github.io/assets/157336396/a8445da9-fd21-47c1-ab58-bc0b73272902">
 <img width="400" alt="swiper-publishing page" src="https://github.com/yunyungu/yunyungu.github.io/assets/157336396/10c7885c-129a-47c0-944b-dc5a91717395">
-
-
 <br><br>
-
 
 > project를 제공하는 페이지에서는 swiper를 활용하였습니다.<br>
 > 이 곳에서 다양한 작업물을을 감상하시길 바랍니다!<br>
 > 추후 업데이트 될 작업물 들은 이곳에 슬라이드형태로 추가될 예정입니다.
+
+<br><br>
+
+### :point_right: Project_Design Page
+
+<img width="400" alt="design page hover" src="https://github.com/yunyungu/yunyungu.github.io/assets/157336396/3e5867c6-ecf2-4a65-aafd-f89776397a11">
+<img width="400" alt="design page click" src="https://github.com/yunyungu/yunyungu.github.io/assets/157336396/d3aebace-ab9d-4006-846c-927bea5eefb2">
+
+> Slide에 Mouse hover 하시면 이 디자인에 대한 상세설명을 확인하실 수 있습니다.<br>
+> 작업물을 자세히 보고싶으시면 상세설명 하단의 'VIEW' 버튼을 눌러 확대해보시길 바랍니다.
+
+<br><br>
+
+### :point_right: Project_Publishing Page
+
+<img width="400" alt="publishing page hover" src="https://github.com/yunyungu/yunyungu.github.io/assets/157336396/f7ccc36a-66ee-49ad-8417-3280c549f94c">
+
+> publishing project의 이미지에 mouse hove하면 샘플이미지가 스크롤됩니다.
+> 자세한 사이트 방문은 설명 하단의 'GITHUB' 버튼 또는 'VIEW SITE'버튼을 통해주시길 바랍니다.
 
 
 <br><br><br>
